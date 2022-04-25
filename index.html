@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="navbar">
+            <h1>Dojonary</h1>
+            <input type="text" placeholder="Search..." id="Search">
+            <button class="button-utility" onclick="changeText(this)">Login</button>
+        </div>
+        <div id="body">
+            <div class="left">
+                <div class="ninja">
+                    <div class="ninja-top-left">
+                        <h1><strong>ninja</strong></h1>
+                        <h3><em>noun</em></h3>
+                        <h3>Plural: <em>ninjas</em></h3>
+                        <button class= button-utility onclick="likesalert(this)">13 likes</button>
+                    </div>
+                    <div class="ninja-def">
+                        <p>A practitioner skilled in the ancient <a href="https://en.wikipedia.org/wiki/Japanese_Wikipedia" target="_blank">Japanese</a> art of <a href="https://en.wikipedia.org/wiki/Ninjutsu" target="_blank">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="ninja">
+                    <div class="ninja-bottom-left">
+                        <h1><strong>ninja</strong></h1>
+                        <h3><em>noun</em></h3>
+                        <h3>Plural: <em>ninjas</em></h3>
+                        <button class= button-utility onclick="likesalert(this)">37 likes</button>
+                    </div>
+                    <div class="prog-def">
+                        <p>A <a href="https://en.wikipedia.org/wiki/Programmer" target="_blank">programmer</a> who breaks down problems with <a href="https://en.wikipedia.org/wiki/Zen" target="_blank">zen</a>-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div id="doj-def">
+                    <h3>Dojonary is</h3> 
+                    <h3>defined by <strong>YOU</strong></h3>
+                    <button class= button-utility id="myDIV" onclick="removeElement(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="./script.js"></script>
+</body>
+</html>
